@@ -65,7 +65,7 @@ To asses the fit of a line, we should define the cost of it. One method is the r
 RSS(θ<sub>0</sub>, θ<sub>1</sub>) = &Sigma;[y<sup>(j)</sup>- (θ<sub>0</sub>+θ<sub>1</sub>x<sup>(j)</sup>)]<sup>2</sup> <sub>j=1 -> m</sub>
 
 ###### *Note: a residual is the difference between predicted values and the observation*
-###### Residual = y<sup>(j)</sup>- (θ<sub>0</sub>+θ<sub>1</sub>x<sup>(j)</sup>)
+###### Residual = - (θ<sub>0</sub>+θ<sub>1</sub>x<sup>(j)</sup>)-y<sup>(j)</sup>
 
 We want to minimize this. Because it is the squared difference between the predicted and actual value.
 
